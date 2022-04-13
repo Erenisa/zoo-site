@@ -1,0 +1,113 @@
+<?php
+		require 'libs/db.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=1920" >
+<title>Цветик</title>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script type="text/javascript">
+	jQuery(document).ready(function($){  
+$('#slow_nav  ul li').hover(
+            function () {
+                $('ul', this).stop().slideDown(400);
+            }, 
+            function () {
+                $('ul', this).stop().slideUp(400);            
+            }
+        );
+});
+</script>
+
+
+
+  </head>
+<body>
+
+	<header>
+
+				<div class="textcontainer">
+					<span class="particletext confetti"><b>PetsShop</b></span>
+					<script src='animation.js'></script>
+				</div>
+
+				<div>
+	<nav id="slow_nav">
+    		<ul>
+    		<li>
+    			<a href="index.html">Главная</a>
+		        <a href="cat.html">Кошки</a>
+		        <a href="dog.html">Собаки</a>
+		        <a href="rodents.html">Грызуны</a>
+		        <a href="birds.html">Птицы</a>
+		        <a href="#">Другие питомцы</a>
+		        <a href="VetApteka.html">Вет.Аптека</a>
+		    </li>
+		</ul>
+		            
+	</div>
+					
+					<form>
+  						<input type="text" a href="exit.php" placeholder="Искать здесь...">
+	</header>
+<content>
+
+	<div class="left_menu">
+
+<ul class="menu1">
+	<p class = "Kat">Категории</p>
+<li class="li1"><a href="Sheets/page1.html" class="mainmenu1">Антибиотики</a></li>
+<li class="li1"><a href="Sheets/page2.html" class="mainmenu1">Средства от паразитов</a></li>
+<li class="li1"><a href="Sheets/page3.html" class="mainmenu1">Вакцины</a></li>
+<li class="li1"><a href="Sheets/page4.html" class="mainmenu1">Воротники</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Глаза</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Оборуование</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Уши</a></li>
+</ul>
+</div>
+
+
+	
+
+
+
+
+<li class="li2"><a href="" class="mainmenu1">Популярные продукты</a></li>
+	<div class="content" >
+		<a class="content_a" ><img class="content_Gypsophiles1" src="images/Антибиотик.jpg"><p align="center" class="content_text_flowers">Неофлокс <br>Цена: 445 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/Паразит.jpg"><p align="center" class="content_text_flowers">Мильпро Дог<br>Цена: 1 417 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/Шерсть.jpg"><p align="center" class="content_text_flowers">Malt Paste <br>Цена: 1 098 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/Вакцина.jpg"><p align="center" class="content_text_flowers">Пиро-Стоп <br>Цена: 1 015 ₽</p></a>
+
+		<a class="content_a" ><img class="content_Gypsophiles1" src="images/Сердце.jpg"><p align="center" class="content_text_flowers">Вазосан<br>Цена: 1 315 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/Успокоительное.jpg"><p align="center" class="content_text_flowers">Стоп-Стресс<br>Цена: 232 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/Воротник.jpg"><p align="center" class="content_text_flowers">Воротник защитный <br>Цена: 629 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/Глаза.jpg"><p align="center" class="content_text_flowers">Лакрикан<br>Цена: 198 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/уши.jpg"><p align="center" class="content_text_flowers">Средство для ушей<br>Цена: 599 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/Паспорт.jpg"><p align="center" class="content_text_flowers">Ветеринарный паспорт<br>Цена:51 ₽</p></a>
+
+</content>
+	<footer>
+			<div class="content">
+				<img class="content_img2" src="images/instagram.png">
+				<img class="content_img3" src="images/Vkontakte.png">
+				<img class="content_img4" src="images/facebook.png">
+				<img class="content_img5" src="images/pinterest.png">
+			</div>
+	</footer>
+</body>
+</html>

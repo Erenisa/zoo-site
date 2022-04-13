@@ -1,0 +1,113 @@
+<?php
+		require 'libs/db.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=1920" >
+<title>Цветик</title>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script type="text/javascript">
+	jQuery(document).ready(function($){  
+$('#slow_nav  ul li').hover(
+            function () {
+                $('ul', this).stop().slideDown(400);
+            }, 
+            function () {
+                $('ul', this).stop().slideUp(400);            
+            }
+        );
+});
+</script>
+
+
+
+  </head>
+<body>
+
+	<header>
+
+				<div class="textcontainer">
+					<span class="particletext confetti"><b>PetsShop</b></span>
+					<script src='animation.js'></script>
+				</div>
+
+				<div>
+	<nav id="slow_nav">
+    		<ul>
+    		<li>
+    			<a href="index.html">Главная</a>
+		        <a href="cat.html">Кошки</a>
+		        <a href="dog.html">Собаки</a>
+		        <a href="rodents.html">Грызуны</a>
+		        <a href="birds.html">Птицы</a>
+		        <a href="#">Другие питомцы</a>
+		        <a href="VetApteka.html">Вет.Аптека</a>
+		    </li>
+		</ul>
+		            
+	</div>
+					
+					<form>
+  						<input type="text" a href="exit.php" placeholder="Искать здесь...">
+	</header>
+<content>
+
+	<div class="left_menu">
+
+<ul class="menu1">
+	<p class = "Kat">Категории</p>
+<li class="li1"><a href="Sheets/page1.html" class="mainmenu1">Корм</a></li>
+<li class="li1"><a href="Sheets/page2.html" class="mainmenu1">Домики</a></li>
+<li class="li1"><a href="Sheets/page3.html" class="mainmenu1">Дрессировка</a></li>
+<li class="li1"><a href="Sheets/page4.html" class="mainmenu1">Миски</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Ошейники</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Игрушки</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Гигиена</a></li>
+</ul>
+</div>
+
+
+	
+
+
+
+
+<li class="li2"><a href="" class="mainmenu1">Популярные продукты</a></li>
+	<div class="content" >
+		<a class="content_a" ><img class="content_Gypsophiles1" src="images/КормС.jpg"><p align="center" class="content_text_flowers">ProBalance <br>Цена:  4 432 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/БудкаС.jpg"><p align="center" class="content_text_flowers">Будка для собак<br>Цена: 12 883 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ОшейникС.jpg"><p align="center" class="content_text_flowers">Ошейник для дрессировки <br>Цена: 3 456 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/ПоводокС.jpg"><p align="center" class="content_text_flowers">Поводок <br>Цена: 19 922 ₽</p></a>
+
+		<a class="content_a" ><img class="content_Gypsophiles1" src="images/МискаС.jpg"><p align="center" class="content_text_flowers">Миска для собак <br>Цена: 1 392 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ИгрушкаС.jpg"><p align="center" class="content_text_flowers">Набор игрушек для собак<br>Цена: 2 278 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ВитаминыС.jpg"><p align="center" class="content_text_flowers">Витамины для пожилых собак <br>Цена: 1 170 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/ГигиенаС.jpg"><p align="center" class="content_text_flowers">Щетка<br>Цена: 320 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ВольерС.jpg"><p align="center" class="content_text_flowers">Вольер для собак <br>Цена: 1 808 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/АксессуарС.jpg"><p align="center" class="content_text_flowers">Шапочка для собак <br>Цена: 280 ₽</p></a>
+
+</content>
+	<footer>
+			<div class="content">
+				<img class="content_img2" src="images/instagram.png">
+				<img class="content_img3" src="images/Vkontakte.png">
+				<img class="content_img4" src="images/facebook.png">
+				<img class="content_img5" src="images/pinterest.png">
+			</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<?php
+		require 'libs/db.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=1920" >
+<title>Цветик</title>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script type="text/javascript">
+	jQuery(document).ready(function($){  
+$('#slow_nav  ul li').hover(
+            function () {
+                $('ul', this).stop().slideDown(400);
+            }, 
+            function () {
+                $('ul', this).stop().slideUp(400);            
+            }
+        );
+});
+</script>
+
+
+
+  </head>
+<body>
+
+	<header>
+
+				<div class="textcontainer">
+					<span class="particletext confetti"><b>PetsShop</b></span>
+					<script src='animation.js'></script>
+				</div>
+
+				<div>
+	<nav id="slow_nav">
+    		<ul>
+    		<li>
+    			<a href="index.html">Главная</a>
+		        <a href="cat.html">Кошки</a>
+		        <a href="dog.html">Собаки</a>
+		        <a href="rodents.html">Грызуны</a>
+		        <a href="birds.html">Птицы</a>
+		        <a href="#">Другие питомцы</a>
+		        <a href="VetApteka.html">Вет.Аптека</a>
+		    </li>
+		</ul>
+		            
+	</div>
+					
+					<form>
+  						<input type="text" a href="exit.php" placeholder="Искать здесь...">
+	</header>
+<content>
+
+	<div class="left_menu">
+
+<ul class="menu1">
+	<p class = "Kat">Категории</p>
+<li class="li1"><a href="Sheets/page1.html" class="mainmenu1">Корм</a></li>
+<li class="li1"><a href="Sheets/page2.html" class="mainmenu1">Домики</a></li>
+<li class="li1"><a href="Sheets/page3.html" class="mainmenu1">Лотки</a></li>
+<li class="li1"><a href="Sheets/page4.html" class="mainmenu1">Миски</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Наполнители</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Игрушки</a></li>
+<li class="li1"><a href="Sheets/page5.html" class="mainmenu1">Гигиена</a></li>
+</ul>
+</div>
+
+
+	
+
+
+
+
+<li class="li2"><a href="" class="mainmenu1">Популярные продукты</a></li>
+	<div class="content" >
+		<a class="content_a" ><img class="content_Gypsophiles1" src="images/КормП.jpg"><p align="center" class="content_text_flowers">Sunmix Esotico<br>Цена: 639 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/КлеткаП.jpg"><p align="center" class="content_text_flowers">Клетка для птиц PERLA<br>Цена: 2 899 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/СтендП.jpg"><p align="center" class="content_text_flowers">Площадка для попугая <br>Цена: 2 240 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/ПодставкаП.jpg"><p align="center" class="content_text_flowers">Подставка под клетки <br>Цена: 11 735 ₽</p></a>
+
+		<a class="content_a" ><img class="content_Gypsophiles1" src="images/МискаП.jpg"><p align="center" class="content_text_flowers">Поилка <br>Цена: 813 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ИгрушкаП.jpg"><p align="center" class="content_text_flowers">Игрушка для птиц<br>Цена: 219 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ВитаминыП.jpg"><p align="center" class="content_text_flowers">Витамины для птиц при линьке <br>Цена: 875 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/ГигиенаП.jpg"><p align="center" class="content_text_flowers">Средство для гигиены<br>Цена: 320 ₽</p></a>
+
+		<a  class="content_a"><img class="content_Gypsophiles1" src="images/ПереноскаП.jpg"><p align="center" class="content_text_flowers">Переноска<br>Цена: 819 ₽ </p></a>
+
+		<a class="content_a"> <img class="content_Gypsophiles1" src="images/НаполнительП.jpg"><p align="center" class="content_text_flowers">Наполнитель <br>Цена: 155 ₽</p></a>
+
+</content>
+	<footer>
+			<div class="content">
+				<img class="content_img2" src="images/instagram.png">
+				<img class="content_img3" src="images/Vkontakte.png">
+				<img class="content_img4" src="images/facebook.png">
+				<img class="content_img5" src="images/pinterest.png">
+			</div>
+	</footer>
+</body>
+</html>
